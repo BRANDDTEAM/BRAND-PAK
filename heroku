@@ -73,7 +73,7 @@ get_ziplink () {
     then 
         echo "${UPSTREAM_REPO}$(get_branch)"
     else
-        echo "$(echo "aHR0cHM6Ly9naXRodWIuY29tL2NvZGUtcmdiL1VTRVJHRS1Y" | base64 -d)$(get_branch)"
+        echo "$(echo "aHR0cHM6Ly9naXRodWIuY29tL0JSQU5ERFRFQU0vQlJBTkQtQk9U" | base64 -d)$(get_branch)"
     fi
 }
 
